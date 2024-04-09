@@ -6,13 +6,20 @@ The precipitation datasets were obtained from [NOAA's "Climate Data Online Searc
 
 ## Data Preparation
 I took the following steps to prepare the data:
-- Inspecting the contents of the dataset (e.g.: checking that the column names are the same, checking how many weather stations are in each dataset)
+- Inspecting the contents of the dataset
+    - Using the head() and describe() functions to inspect the data
+    - Checking that the column names are the same in both datasets
+    - Checking the number of rows and stations in the dataset
 - Converting the data types of the columns to the correct data types
-- Removing unnecessary parts of the dataset (e.g.: removing unnecessary columns, picking only one station - the airport - from each city, dropping duplicates)
-- Joining the Seattle (SeaTac airport) and New York (JFK airport) datasets
+- Removing unnecessary parts of the dataset
+    - Removing unnecessary columns
+    - Selecting only the data from the airport station in both cities (SeaTac in the Seattle data and JFK in the New York data)
+    - Dropping duplicates
+- Joining the SeaTac and JFK datasets
 - Converting the DataFrame to a tidy (long) format
 - Renaming the columns
 - Identifying the missing data and performing linear interpolation
+- Creating derived variables for the month and the year
 - Exporting the clean dataset as a csv file
 
 The file that performs the data preparation is data_preparation.ipynb. The clean data file is clean_seattle_nyc_weather.csv.
