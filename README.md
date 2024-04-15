@@ -23,3 +23,17 @@ I took the following steps to prepare the data:
 - Exporting the clean dataset as a csv file
 
 The file that performs the data preparation is data_preparation.ipynb. The clean data file is clean_seattle_nyc_weather.csv.
+
+## Data Analysis
+I took the following steps to analyze the data:
+- Compare the average amount of precipitation in Seattle and New York
+    - Average the precipitation over all the months and years for each city
+    - Average the precipitation each month for each city, and plot those averages
+- Find out whether there more light rain events or heavy rain events in each city
+    - Make a histogram of all the data that had a nonzero amount of precipitation
+    - For each month, make a histogram of the data with a nonzero amount of precipitation
+    - Make a 2D histogram with the month on the x-axis and the precipitation on the y-axis
+- Find out how many rainy days there are in each month in each city
+    - Count and plot the number of rainy days in each city during each month (for all the years)
+
+The file that performs the data analysis is data_analysis.ipynb.
