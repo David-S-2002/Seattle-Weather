@@ -1,10 +1,19 @@
 # Using data to determine whether it rains more in Seattle or New York
-The purpose of this project is to find out whether it rains more in Seattle or New York, by analyzing precipitation datasets from NOAA. The datasets have the daily precipitation in Seattle and New York, respectively, from January 1st, 2020 to January 1st, 2024.
+
+## Description
+The purpose of this project is to find out whether it rains more in Seattle or New York, by analyzing precipitation datasets from NOAA. I processed and cleaned the data. Then, to solve the problem, I performed data analysis to answer the following questions:
+- Compare the average amount of precipitation in Seattle and New York
+- Find out whether there more light rain events or heavy rain events in each city
+- Find out how many rainy days there are in each month in each city
+
+After analyzing the data, my conclusion was that Seattle has a greater number of rainy days, but when it rains in Seattle, it's more likely to be light rain and less likely to be heavy rain. New York has fewer rainy days, but when it rains in New York, both light and heavy rain are likely.
+
+## Requirements
 
 ## Data
-The precipitation datasets were obtained from [NOAA's "Climate Data Online Search" page]( https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND).
+The precipitation datasets were obtained from [NOAA's "Climate Data Online Search" page]( https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND). The datasets have the daily precipitation in Seattle and New York, respectively, from January 1st, 2020 to January 1st, 2024.
 
-## Data Preparation
+## Data Processing
 I took the following steps to prepare the data:
 - Inspecting the contents of the dataset
     - Using the head() and describe() functions to inspect the data
@@ -37,3 +46,8 @@ I took the following steps to analyze the data:
     - Count and plot the number of rainy days in each city during each month (for all the years)
 
 The file that performs the data analysis is data_analysis.ipynb.
+
+## Authors
+David Stanko
+
+## License
