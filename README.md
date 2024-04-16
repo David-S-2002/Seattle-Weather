@@ -9,6 +9,14 @@ The purpose of this project is to find out whether it rains more in Seattle or N
 After analyzing the data, my conclusion was that Seattle has a greater number of rainy days, but when it rains in Seattle, it's more likely to be light rain and less likely to be heavy rain. New York has fewer rainy days, but when it rains in New York, both light and heavy rain are likely.
 
 ## Requirements
+I used the following software:
+- Python 3.10.11
+- Google Colab
+- Python libraries:
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Seaborn
 
 ## Data
 The precipitation datasets were obtained from [NOAA's "Climate Data Online Search" page]( https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND). The datasets have the daily precipitation in Seattle and New York, respectively, from January 1st, 2020 to January 1st, 2024.
@@ -48,6 +56,7 @@ I took the following steps to analyze the data:
 The file that performs the data analysis is data_analysis.ipynb.
 
 ## Authors
-David Stanko
+[David Stanko](https://www.linkedin.com/in/david-stanko/)
 
 ## License
+This project is licensed with the MIT license. 
